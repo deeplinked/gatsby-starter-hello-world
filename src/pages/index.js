@@ -4,8 +4,9 @@ import Layout from '../components/layout';
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>Hello.</h1>
-      <h2>I am KiKi, A full-stack noob.</h2>
+      <h1 class="title">Hello.</h1>
+      <h2 class="subtitle">I am KiKi, a full-stack noob.</h2>
+      <button class="is-primary button">click me</button>
     </Layout>
   );
   
