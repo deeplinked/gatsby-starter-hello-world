@@ -7,7 +7,8 @@ const Enroll = () => {
             <div class="columns">
             <div class="column is-half">
 
-            <form method="post" action="#">
+            <form method="post" name="enroll" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="enroll" />
             
             <div class="field">
             <label class="label">Course type</label>
