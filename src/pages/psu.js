@@ -17,7 +17,7 @@ const psuPage = () => {
             <div class="pricing-table">
             <div class="pricing-plan is-active">
                 <div class="plan-header">EEE</div>
-                <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₹</span>18,250</span></div>
+                <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₹</span>13,250</span></div>
                 <div class="plan-items">
                 <div class="plan-item">
                     <h5>timings</h5>

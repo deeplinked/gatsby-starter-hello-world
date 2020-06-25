@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from "../../static/logo.png"
+//import logo from "../../static/logo.png"
 import { FaTwitter, FaFacebookF } from 'react-icons/fa';
 
 const Navbar = class extends React.Component {
@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
           <div className="container">
             <div className="navbar-brand">
             <Link className="navbar-item has-tooltip-bottom" to="/" data-tooltip="Home">
-            <img src={logo} alt="Logo" />
+            <h2>company logo</h2>
             </Link>
               {/* Hamburger menu */}
               <a

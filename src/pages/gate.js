@@ -15,7 +15,7 @@ const gatePage = () => {
             <div class="pricing-table">
             <div class="pricing-plan is-active">
                 <div class="plan-header">EEE & ECE</div>
-                <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₹</span>15,250</span></div>
+                <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₹</span>10,250</span></div>
                 <div class="plan-items">
                 <div class="plan-item">
                     <h5>timings</h5>
