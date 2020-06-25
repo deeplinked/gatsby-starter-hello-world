@@ -1,12 +1,19 @@
 import React from "react";
 import Layout from '../components/layout';
+import Hero from '../components/hero';
+import Blogroll from '../components/blogroll'
+
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h1 class="title">Hello.</h1>
-      <h2 class="subtitle">I am KiKi, a full-stack noob.</h2>
-      <button class="is-primary button">click me</button>
+      <Hero />
+      <section class="section">
+        <div class="container content">
+        <Blogroll />
+        </div>
+      </section>
+      
     </Layout>
   );
   

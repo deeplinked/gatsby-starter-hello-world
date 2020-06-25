@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd -f env.development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -15,13 +15,29 @@
   },
   "dependencies": {
     "bulma": "^0.9.0",
+    "bulma-pricingtable": "^0.2.0",
+    "bulma-timeline": "^3.0.4",
     "gatsby": "^2.23.3",
+    "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-sass": "^2.3.4",
+    "gatsby-plugin-typography": "^2.5.4",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-plugin-webfonts": "^1.1.3",
+    "gatsby-source-filesystem": "^2.3.12",
+    "gatsby-transformer-remark": "^2.8.17",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.10.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-de-young": "^0.16.19"
   },
   "devDependencies": {
+    "@creativebulma/bulma-tooltip": "^1.2.0",
+    "env-cmd": "^10.1.0",
     "prettier": "2.0.5"
   },
   "repository": {

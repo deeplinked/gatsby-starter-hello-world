@@ -1,20 +1,20 @@
 import React from 'react';
-import Header from './header';
+import { Helmet } from 'react-helmet';
+import Navbar from './navbar';
 import Footer from './footer';
 import '../styles/index.scss';
-//import layoutStyles from './layout.module.scss';
 
 const Layout = (props) => {
     return(
         <div>
-            <Header />
-            <section class="hero">
-            <div class="hero-body">
-            <div class="container">
-            <div class="content">
+            <Helmet>
+                <html lang="en" />
+                <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+            </Helmet>
+            <Navbar />
+            <section class="section">
+            <div class="container content">
             {props.children}
-            </div>
-            </div>
             </div>
             </section>
             <Footer />
