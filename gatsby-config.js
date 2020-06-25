@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Full-Stack noob',
-    author: 'KiKi'
+    title: 'company name',
+    description: 'quality and affordable coaching for PSUs and GATE aspirants'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
